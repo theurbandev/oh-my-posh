@@ -31,7 +31,7 @@ Click the following link to connect with Withings:
   "powerline_symbol": "\uE0B0",
   "foreground": "#ffffff",
   "background": "#000000",
-  "template": "{{.Name}} {{.Ago}} {{.Icon}}",
+  "template": "{{ if gt .Weight 0.0 }} {{ round .Weight 2 }}kg {{ end }}",
   "properties": {
     "access_token":"11111111111111111",
     "refresh_token":"1111111111111111",
@@ -53,7 +53,7 @@ Click the following link to connect with Withings:
 :::note default template
 
 ``` template
-{{ if .Error }}{{ .Error }}{{ else }}{{ .Ago }}{{ end }}
+{{ if gt .Weight 0.0 }} {{ round .Weight 2 }}kg {{ end }}
 ```
 
 :::
@@ -62,7 +62,9 @@ Click the following link to connect with Withings:
 
 The properties below are available for use in your template
 
-- `.ID`: `time` - The id of the entry
+- `.Weight`: `float` - your last measured weight
+- `.SleepHours`: `string` - your last measured sleep SleepHours
+- `.Steps`: `int` - your last measured steps
 
 Now, go out and be active!
 
