@@ -7,7 +7,7 @@
         "segments": [
           {
             "foreground": "#BBC4B9",
-            "leading_diamond":"<#BFA8BF>~</> ",
+            "leading_diamond":"<#903232>~</> ",
             "properties": {
               "display_host": true
             },
@@ -16,7 +16,7 @@
             "type": "session"
           },
           {
-            "foreground": "#1d603b",
+            "foreground": "#288853",
             "properties": {
               "branch_icon": "\ue725 ",
               "fetch_stash_count": true,
@@ -87,7 +87,7 @@
         "segments": [
           {
             "foreground": "#cdbe34",
-            "leading_diamond": "<#BFA8BF>~</>",
+            "leading_diamond": "<#903232>~</>",
             "properties": {
               "folder_icon": "\u002F",
               "folder_separator_icon": " \u002F ",
@@ -100,7 +100,7 @@
             "type": "path"
           },
           {
-            "foreground": "#BFA8BF",
+            "foreground": "#903232",
             "foreground_templates": [
               "{{ if gt .Code 0 }}#fff{{ end }}"
             ],
