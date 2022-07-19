@@ -7,7 +7,7 @@
         "segments": [
           {
             "foreground": "#BBC4B9",
-            "leading_diamond":"<#a7a7a7>~</> ",
+            "leading_diamond":"<#BFA8BF>~</> ",
             "properties": {
               "display_host": true
             },
@@ -87,7 +87,7 @@
         "segments": [
           {
             "foreground": "#cdbe34",
-            "leading_diamond": "<#a7a7a7>~</>",
+            "leading_diamond": "<#BFA8BF>~</>",
             "properties": {
               "folder_icon": "\u002F",
               "folder_separator_icon": " \u002F ",
@@ -100,7 +100,7 @@
             "type": "path"
           },
           {
-            "foreground": "#a7a7a7",
+            "foreground": "#BFA8BF",
             "foreground_templates": [
               "{{ if gt .Code 0 }}#fff{{ end }}"
             ],
