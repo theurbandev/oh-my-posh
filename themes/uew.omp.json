@@ -16,7 +16,7 @@
             "type": "session"
           },
           {
-            "foreground": "#BFA8BF",
+            "foreground": "#1d603b",
             "properties": {
               "branch_icon": "\ue725 ",
               "fetch_stash_count": true,
@@ -29,7 +29,7 @@
             "type": "git"
           },
           {
-            "foreground": "#BFA8BF",
+            "foreground": "#1d603b",
             "style": "powerline",
             "template": " <#fff>\ufcb5</> {{ .Name }} ",
             "type": "shell"
