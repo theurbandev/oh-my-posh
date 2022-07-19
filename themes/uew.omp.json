@@ -86,7 +86,7 @@
         "newline": true,
         "segments": [
           {
-            "foreground": "#cdbe34",
+            "foreground": "#828040",
             "leading_diamond": "<#903232>~</>",
             "properties": {
               "folder_icon": "\u002F",
